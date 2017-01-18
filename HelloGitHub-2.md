@@ -33,4 +33,5 @@
 
 **如果远程仓库的develop分支被他人修改了，则需要pull最新的develop分支到本地，使用命令 `git pull origin develop`**
 
-更多关于push pull的相关内容 请参考[Git push与pull的默认行为](https://segmentfault.com/a/1190000002783245)
+
+**更多关于push pull的相关内容 请参考[Git push与pull的默认行为](https://segmentfault.com/a/1190000002783245)**
