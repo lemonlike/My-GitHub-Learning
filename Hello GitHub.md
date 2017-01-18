@@ -1,4 +1,4 @@
-﻿# Hello GitHub
+# Hello GitHub
 
 标签：GitHub
 
@@ -43,3 +43,5 @@ GitHub是基于Git的，Git面向本地，它是针对本地开发项目的一�
 第一步：登录自己的github账号，找到一个自己感兴趣的项目，点击项目右上角的Fork，然后项目就出现在自己的Repository里。
 第二步：将项目clone到本地，增添自己想修改的东西，commit后再push到自己的github上。
 第三步：点开自己github中Fork过来的项目，再点击pull Requests，在这个界面可以看到该项目与原有项目的不同之处，同样写好标题和描述后点击确定就完成了我们对该项目的一个PR。
+
+这是 a test.
