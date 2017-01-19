@@ -6,8 +6,8 @@
 
 **这个地方，我将记录我在使用git或github中遇到的一些问题。**
 
-1. 在git bash 中如何退出vim编辑器？
-
+## 1. 在git bash 中如何退出vim编辑器？  
+*2017/1/18*  
  **问题描述：**  
  在使用`git commit` `git merge --no-ff xxx` 等指令时会跳转到一个“编辑器”（vim编辑器 目前我并去查它是什么类型的编辑器），然后我发现我没法编辑，也不知道怎么退出，今晚（2017/1/18 20:54:21 ）搞清楚了这个问题。
 
@@ -22,9 +22,10 @@
 
 ----------
 
-2.git merge --no-ff 是什么意思？与git merge有什么区别？与 git merge --squash 有什么区别？
+## 2.git merge --no-ff 是什么意思？与git merge有什么区别？与 git merge --squash 有什么区别？
  
-*离睡觉还有点时间再写一个题*  
+*离睡觉还有点时间再写一个题*    
+*2017/1/18*  
 **问题描述：**  
 之前因为遇到上一题的缘故，我在合并的时候一直用`git merge` 于是在看graph的时候 发现和我想象中的不一样，分支去哪了？
 
@@ -40,4 +41,4 @@ fast-forward方式就是当条件允许的时候，git直接把HEAD指针指向�
 `--squash`：使用squash方式合并，把多次分支commit历史压缩为一次  
 看下图就很明白了
 ![图片](http://i.imgur.com/ejjOrL5.png)  
-本题参考自 [segmentfault](https://segmentfault.com/q/1010000002477106)
+本题解答参考自 [segmentfault](https://segmentfault.com/q/1010000002477106)
