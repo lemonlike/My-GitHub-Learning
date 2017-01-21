@@ -35,3 +35,8 @@
 
 
 **更多关于push pull的相关内容 请参考[Git push与pull的默认行为](https://segmentfault.com/a/1190000002783245)**
+
+## 设置SSH Key
+*SSH应该在最开始使用github时进行设置*  
+`ssh-keygen -t rsa -C "your_eamil@exmaple,com"` 邮箱为你创建github账户所用的邮箱。  
+`ssh -T git@github.com` 用目前的私有密钥与github进行认证和通信。
