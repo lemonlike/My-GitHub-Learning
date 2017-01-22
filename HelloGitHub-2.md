@@ -19,6 +19,7 @@
 - 推送至master分支
 使用指令`git push -u origin master`
 -u参数可以在推送的同时，将origin仓库的master分支设置为本地仓库当前分支的**upstream（上游）**。添加这个参数，将来`git pull` 时，就可以直接从origin的master分支获取内容，省去了另外添加参数的麻烦。
+
 - 推送至master以外的分支
 在本地创建develop `git checkout -b develop` 将它push给远程仓库并保持分支名不变 `git push -u origin develop`
 现在，在远程仓库的GitHub页面就可以查看到develop分支了
@@ -40,3 +41,5 @@
 *SSH应该在最开始使用github时进行设置*  
 `ssh-keygen -t rsa -C "your_eamil@exmaple,com"` 邮箱为你创建github账户所用的邮箱。  
 `ssh -T git@github.com` 用目前的私有密钥与github进行认证和通信。
+
+## 怎么在pycharm中使用git和github

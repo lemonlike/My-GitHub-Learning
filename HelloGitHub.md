@@ -16,7 +16,7 @@ GitHub是基于Git的，Git面向本地，它是针对本地开发项目的一�
 
 - `git init`命令 将test文件夹初始化为一个仓库
 - `git status`命令 查看当前git仓库的状态
-- `git add` 如果对a.md文件做了修改，则使用此指令将文件提交到缓冲区
+- `git add` 如果对a.md文件做了修改，则使用此指令将文件提交到缓冲区 `git add -A`提交所有的文件
 - `git commit` 使用此指令将缓冲区的文件提交到仓库；一般情况下使用格式为 `git commit -m 'first commit'` 其中-m 表示提交的信息，引号为信息内容。
 - `git log` 查看提交日志
 - `git diff` 查看工作树（最新的代码）与暂存区的差别 （在`git add` 之前），如果已经`git add`了，则使用`git diff HEAD` 查看工作树和最新提交的差别（在`git commit`之前）。
