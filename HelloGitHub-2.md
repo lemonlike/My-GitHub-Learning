@@ -43,3 +43,4 @@
 `ssh -T git@github.com` 用目前的私有密钥与github进行认证和通信。
 
 ## 怎么在pycharm中使用git和github
+嗯 这个很简单，只需要在settings中填一下Git和GitHub相关配置即可。不过对仓库的操作最好还是使用Git Bash的命令行，这样对整个流程会有更深刻的认识。
